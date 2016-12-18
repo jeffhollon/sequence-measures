@@ -18,7 +18,7 @@ function [ metrics ] = getSeqMetrics( Seq )
     PASR = PeakToAverageSidelobeRatio(Seq1);
     PNSR = PeakToNeighborSidelobeRatio(Seq1);
 
-    CorrEnergy = getCorrelationEnergy(Seq1);
+    CorrEnergy = getPeriodicCorrelationEnergy(Seq1);
     
     metrics=[Length,Energy,EnergyEff,GMF,PMSR,PASR,PNSR,SPAR,CorrEnergy];
     
