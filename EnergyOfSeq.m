@@ -1,6 +1,5 @@
 function [ E ] = EnergyOfSeq( Seq )
-%ENERGYOFSEQ Summary of this function goes here
-%   Detailed explanation goes here
+%ENERGYOFSEQ 
 
     E = sum ( Seq.^2 );
 

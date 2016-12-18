@@ -1,6 +1,5 @@
 function [ PMSR ] = PeakToMaxSidelobeRatio( Seq )
-%PEAKTOMAXSIDELOBERATIO Summary of this function goes here
-%   Detailed explanation goes here
+%PEAKTOMAXSIDELOBERATIO 
     Corr = aperiodicCorr(Seq);
     Peak = Corr(1);
     Corr(1)=[];

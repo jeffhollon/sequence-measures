@@ -1,6 +1,5 @@
 function [ metrics ] = getSeqMetrics( Seq )
-%GETSEQMETRICS Summary of this function goes here
-%   Detailed explanation goes here
+%GETSEQMETRICS 
     Length = size(Seq,2);
     Energy = EnergyOfSeq(Seq);
     EnergyEff = EnergyEfficiency(Seq);

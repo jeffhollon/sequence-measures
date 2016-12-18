@@ -1,6 +1,5 @@
 function [ GMF ] = GolayMeritFactor( Seq )
-%GOLAYMERITFACTOR Summary of this function goes here
-%   Detailed explanation goes here
+%GOLAYMERITFACTOR 
     Z = aperiodicCorr(Seq);
     
     n = abs(Z(1));

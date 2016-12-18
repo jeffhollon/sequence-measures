@@ -1,6 +1,5 @@
 function [ SPAR ] = SpectralPeakToAvgRatio( Seq )
-%SPECTRALPEAKTOAVGRATIO Summary of this function goes here
-%   Detailed explanation goes here
+%SPECTRALPEAKTOAVGRATIO 
     n = size(Seq,2);
     Seq = [zeros(1,n), Seq, zeros(1,n)];
     

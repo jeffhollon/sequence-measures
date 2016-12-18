@@ -1,6 +1,5 @@
 function [ PASR ] = PeakToAverageSidelobeRatio( Seq )
-%PEAKTOAVERAGESIDELOBERATIO Summary of this function goes here
-%   Detailed explanation goes here
+%PEAKTOAVERAGESIDELOBERATIO 
     Corr = aperiodicCorr(Seq);
     Peak = Corr(1);
     Corr(1)=[];

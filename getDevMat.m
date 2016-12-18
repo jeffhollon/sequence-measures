@@ -1,6 +1,5 @@
 function [ DevMat, Elements ] = getDevMat( GroupList )
-%GETDEVMAT Summary of this function goes here
-%   Detailed explanation goes here
+%GETDEVMAT
 
     if size(GroupList,2)==1
         %cyclic

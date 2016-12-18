@@ -1,6 +1,5 @@
 function [ EE ] = EnergyEfficiency( Seq )
-%ENERGYEFFICIENCY Summary of this function goes here
-%   Detailed explanation goes here
+%ENERGYEFFICIENCY
 
     EE = EnergyOfSeq(Seq) / size(Seq,2);
 
